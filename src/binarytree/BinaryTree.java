@@ -30,7 +30,6 @@ public class BinaryTree {
         return new BinaryTreeIterator(this);
     }
 
-    // TODO: Implement BinaryTree toString method that iterates through the entire tree and returns it as a String
     // Traverse & print whole BinaryTree
     @Override
     public String toString() {

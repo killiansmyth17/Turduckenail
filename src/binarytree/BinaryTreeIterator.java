@@ -69,6 +69,14 @@ public class BinaryTreeIterator {
         return this;
     }
 
+    public boolean hasLeft() {
+        return current().hasLeft();
+    }
+
+    public boolean hasRight() {
+        return current().hasRight();
+    }
+
     public Node current() {
         return this.current;
     }

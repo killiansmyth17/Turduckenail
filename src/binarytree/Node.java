@@ -48,6 +48,7 @@ public class Node {
 
     // add child node to left
     public void addLeft(String value) {
+        // Current node cannot have child if it has no value
         if (this.getValue() == null) {
             throw new IllegalStateException("Cannot add child to a Node with no value");
         }
@@ -71,6 +72,7 @@ public class Node {
 
     // add child node to right
     public void addRight(String value) {
+        // Current node cannot have child if it has no value
         if (this.getValue() == null) {
             throw new IllegalStateException("Cannot add child to a Node with no value");
         }
